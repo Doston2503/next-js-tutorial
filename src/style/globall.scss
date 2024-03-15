@@ -1,0 +1,42 @@
+.navbar-component{
+  margin: 0 48px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+
+  .nav-link{
+    border-bottom: 2px solid transparent;
+  }
+  .active-link{
+    border-bottom:2px solid red;
+  }
+}
+
+
+.dashboard-layout{
+  height: 100vh;
+  display: flex;
+
+  .dashboard-layout-menu{
+    width: 25%;
+    background-color: #0a53be;
+    height: 100vh;
+    text-align: center;
+    padding: 50px 0;
+
+    a{
+      display: block;
+      font-size: 25px;
+      font-weight: bold;
+      text-decoration: none;
+      margin-bottom: 30px;
+      color: white;
+    }
+  }
+
+  .dashboard-layout-content{
+    width: 75%;
+    height: 100vh;
+    padding: 50px;
+  }
+}
